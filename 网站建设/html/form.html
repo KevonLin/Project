@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="process.aspx" method="GET">
+        请输入你的姓名: <input type="text" name="yourname">
+        <br>
+        请输入你的年龄: <input type="text" name="yourage">
+        <br>
+    </form>
+    <p>=============================================</p>
+    <form action="process.aspx" method="GET">
+        用户名: <input type="text" name="yourage">
+        <br>
+        密&nbsp;&nbsp;&nbsp;码: <input type="text" name="yourage">
+        <br>
+        <input type="submit" name="" id="" value="登录">
+        <input type="submit" name="" id="" value="取消">
+    </form>
+    <p>=============================================</p>
+    你喜欢的运动：<br>
+    <form action="process.aspx" method="GET">
+        <input type="checkbox" name="text" value="bkb">篮球<br>
+        <input type="checkbox" name="text" value="ftb">足球<br>
+        <input type="checkbox" name="text" value="vlb">排球<br>
+        <input type="checkbox" name="text" value="tns">网球<br>
+        <input type="submit" name="" id="" value="提交">
+    </form>
+    <p>=============================================</p>
+    显示邮件数：<br>
+    <form action="process.aspx" method="GET">
+        <input type="radio" name="mail" id="10">10 <br>
+        <input type="radio" name="mail" id="10" checked>20 <br>
+        <input type="radio" name="mail" id="10">30 <br>
+        <input type="radio" name="mail" id="10">40 <br>
+        <input type="submit" name="" id="" value="提交">
+    </form>
+    <p>=============================================</p>
+    文件选择框
+    <form action="process.aspx" method="POST" enctype="multipart/form-data">
+        <p>
+            选择文件<br>
+            <input type="file" name="uploadfile" id="" size="40">
+        </p>
+        <div>
+            <input type="submit" name="Send" id="" value="上传">
+            <input type="hidden" name="hidden" id="" value="上传">
+        </div>
+    </form>
+    <p>=============================================</p>
+    <form action="process.aspx" method="GET">
+        意见：<br>
+        <textarea name="yoursuggest" id="" cols="50" rows="3"></textarea>
+        <br>
+        <input type="submit" name="" id="" value="提交">
+        <input type="reset" name="" id="" value="重写">
+    </form>
+    <p>=============================================</p>
+    
+    <p>=============================================</p>
+
+</body>
+
+</html>

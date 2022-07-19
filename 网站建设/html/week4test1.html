@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week4test1</title>
+    <style>
+        #gotop {
+            width: 0;
+            height: 0;
+            border-left: 24px solid transparent;
+            border-right: 24px solid transparent;
+            border-bottom: 48px solid pink;
+            position: fixed;
+            right: 15px;
+            bottom: 15px;
+        }
+    </style>
+
+    <script>
+        $(function () {
+            showScroll();
+            function showScroll() {
+                $(window).scroll(function () {
+                    var scrollValue = $(window).scrollTop();
+                    scrollValue > 100 ? $('a[id=bt]').fadeIn() : $('a[id=bt]').fadeOut();
+                });
+                $('#scroll').click(function () {
+                    $("html,body").animate({ scrollTop: 0 }, 200);
+                });
+            }
+        });
+
+
+    </script>
+</head>
+
+<body>
+    <a name="top" href="" target="_blank">target=blank</a>
+    <a href="" target="_self">target=self</a>
+    <br>
+    <a href="http://81.71.93.145/main.html" target="_blank">
+        <img src="./img/l4d2.jpg" alt="">
+    </a>
+    <br>
+    <a href="http://81.71.93.145/main.html" target="_blank">
+        <img src="./img/l4d2.jpg" alt="">
+    </a>
+    <br>
+    <a href="http://81.71.93.145/main.html" target="_blank">
+        <img src="./img/l4d2.jpg" alt="">
+    </a>
+    <br>
+    <a href="http://81.71.93.145/main.html" target="_blank">
+        <img src="./img/l4d2.jpg" alt="">
+    </a>
+    <br>
+    <a href="http://81.71.93.145/main.html" target="_blank">
+        <img src="./img/l4d2.jpg" alt="">
+    </a>
+    <br>
+    <a id="bt" href="#top">
+        <div id="gotop"></div>
+    </a>
+    <br>
+    <a href="mailto:428663413@qq.com?cc=549991743@qq.com&sbuject= 你好 &bcc=harrylin134@163.com&body= HelloWorld! ">联系我们</a>
+</body>
+
+</html>

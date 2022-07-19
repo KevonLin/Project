@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0px;
+}
+.nav {
+    width: 100%;
+    height: 60px;
+    padding-left: 50px;
+    box-shadow: 5px 5px 8px 0 rgba(7, 17, 27,0.1);
+    background-color: white;
+    position: fixed;
+}
+.input_text {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.btn_result_search {
+    width: 64px;
+    height: 36px;
+    margin-left: 5px;
+    border: none;
+    background-color: royalblue;
+}
+.btn_result_add {
+    width: 128px;
+    height: 36px;
+    margin-left: 1300px;
+    background-color: royalblue;
+    border: none;
+}
+.the_result {
+    padding-top: 100px;
+    padding-left: 60px;
+    width: 540px;
+    text-overflow: ellipsis;
+    text-align: justify;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin-bottom: 0px;
+}
+.highlight {
+    color: brown;
+}
+.result_link {
+    font-size: 10px;
+    color: green;
+}
+
+.form{
+	margin-top: 20px;
+	padding-top: 20px;
+}

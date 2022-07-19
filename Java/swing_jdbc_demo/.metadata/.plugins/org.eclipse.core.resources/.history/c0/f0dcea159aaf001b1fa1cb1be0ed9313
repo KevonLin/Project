@@ -1,0 +1,16 @@
+package com.week10.day1.as1;
+
+public class TooHigh extends Exception{
+	
+	public TooHigh() {
+		super();
+	}
+
+	public TooHigh(String s) {
+		super();
+	}
+
+	public void getScore(int x) throws TooHigh{
+		
+	}
+}

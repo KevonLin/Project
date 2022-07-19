@@ -1,0 +1,60 @@
+/* global */
+
+body {
+    margin: 0;
+    overflow: auto;
+    font-size: .075rem;
+}
+
+.topbar {
+    width: 10rem;
+    height: .5rem;
+    background-color: #ccc;
+    position: fixed;
+    float: left;
+}
+
+.sidebar {
+    width: 10%;
+    height: 100%;   
+    background-color: #bbb;
+    position: fixed;
+    float: left;
+}
+
+.main {
+    width: 90%;
+    height: 30rem;
+    background-color: #aaa;
+    float: right;
+}
+
+.martop {
+    margin-top: .5rem;
+}
+
+/*layout*/
+
+/* @media screen and (max-width: 768px) {
+    .hidden-xs{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .hidden-sm {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .hidden-md {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hidden-lg {
+        display: none;
+    }
+} */

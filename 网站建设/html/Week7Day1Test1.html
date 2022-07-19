@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2008级班级网站</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-spacing: 0;
+            width: 100%;
+            height: 800px;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        .tdn {
+            border: none;
+            text-align: left;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+
+        .td1 {
+            width: 300px;
+        }
+
+        p {
+            color: red;
+            text-align: center;
+
+        }
+
+        textarea {
+            width: 170px;
+            height: 100px;
+        }
+
+        span {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        #cyzc{
+            border: none;
+        }
+
+        #mytable {
+            width: 600px;
+            margin: 0 auto;
+            border: none;
+        }
+
+        #mytable td{
+            width: 100%;
+        }
+
+        #mytable .tdl{
+            text-align: right;
+            border-color: #333;
+        }
+
+        #timg{
+            width: 100%;
+            height: 50px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="2" id="timg"><img src="#" alt=""></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>
+                    <span>首页</span>|
+                    <span>课程表</span>|
+                    <span>班级新闻</span>|
+                    <span>班级相册</span>|
+                    <span>学生个人主页</span>|
+                    <span>留言本</span>|
+                    <span>成员注册</span>|
+                    <span>关于我们</span>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3">
+                <p><b>成员注册</b></p>
+                <form action="">
+                    <table id="mytable">
+                        <tr>
+                            <td class="tdn tdl">*用户名称</td>
+                            <td class="tdn"><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="tdn tdl"> *真实姓名</td>
+                            <td class="tdn"><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="tdn tdl">出生时间</td>
+                            <td class="tdn">
+                                <select name="" id="">
+                                    <option value="1999">1999年</option>
+                                    <option value="1998">1998年</option>
+                                    <option value="1997">1997年</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="1">1月</option>
+                                    <option value="2">2月</option>
+                                    <option value="3">3月</option>
+                                    <option value="4">4月</option>
+                                    <option value="5">5月</option>
+                                    <option value="6">6月</option>
+                                    <option value="7">7月</option>
+                                    <option value="8">8月</option>
+                                    <option value="9">9月</option>
+                                    <option value="10">10月</option>
+                                    <option value="11">11月</option>
+                                    <option value="12">12月</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="1">1日</option>
+                                    <option value="2">2日</option>
+                                    <option value="3">3日</option>
+                                    <option value="4">4日</option>
+                                    <option value="5">5日</option>
+                                    <option value="6">6日</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdn tdl">*登陆密码</td>
+                            <td class="tdn"><input type="password" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tdn tdl">*确认密码</td>
+                            <td class="tdn"><input type="password" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tdn tdl">*E-mail</td>
+                            <td class="tdn"><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="tdn tdl">电话</td>
+                            <td class="tdn"><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tdn tdl">QQ</td>
+                            <td class="tdn"><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="tdn tdl">个人简介</td>
+                            <td class="tdn">
+                                <textarea name="" id="" cols="30" rows="10">这个家伙懒，什么都没有留下！</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="cyzc" colspan="2"><p><b>注册说明：带"*"项为必填</b></p></td>
+                        </tr>
+                        <tr>
+                            <td class="tdn" colspan="2">
+                                <center><input type="submit" value="确定"></center>
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+            </td>
+            <td class="td1">
+                公告
+                学校将于近期举办校园卡拉OK大赛，报名截止日期，报名处在版文艺委员处，希望同学们踊跃参加。
+            </td>
+        </tr>
+        <tr>
+            <td class="td1">个人主页展示</td>
+        </tr>
+        <tr>
+            <td class="td1">空白</td>
+        </tr>
+    </table>
+</body>
+
+</html>

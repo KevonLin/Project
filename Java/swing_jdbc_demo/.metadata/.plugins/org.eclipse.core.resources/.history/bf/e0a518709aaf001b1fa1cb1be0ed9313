@@ -1,0 +1,10 @@
+package com.week10.day1.as1;
+
+public class Test {
+	public static void main(String[] args) {
+		TooHigh e = new TooHigh("Ì«´óÁË");
+		e.printStackTrace();
+		String msg = e.getMessage();
+		System.out.println(msg);
+	}
+}

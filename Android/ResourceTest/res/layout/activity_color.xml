@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red"
+        android:textSize="30sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="我是红色"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/green"
+        android:textSize="30sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="我是绿色"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:textSize="30sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="我是蓝色"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple"
+        android:textSize="30sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="我是紫色"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="我是系统定义的颜色"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray"
+        android:textSize="30sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="李林泽"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="30sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="18131203051"/>
+</LinearLayout>

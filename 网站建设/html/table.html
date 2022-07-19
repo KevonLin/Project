@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+<body>
+
+    <style>
+        /* body {
+            scrollbar-face-color: green;
+            scrollbar-shadow-color: white;
+            scrollbar-highlight-color: pink;
+            scrollbar-3dlight-color: yellow;
+            scrollbar-darkshadow-color: blue;
+            scrollbar-arrow-color: red;
+        } */
+
+        .t1 {
+            border-collapse: collapse;
+            width: 100%;
+            /* border: 1px solid pink;
+            width: 600px;
+            height: 300px; */
+
+        }
+
+        th.td1,
+        td.td1 {
+            border: 1px solid pink;
+            text-align: center;
+            /* border-top-color: yellow;
+            border-bottom-color: green;
+            border-right-color: blue;
+            border-left-color: hotpink; */
+            border-bottom: 1px solid #ddd;
+            overflow-x: auto;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        td.td1 {
+            height: 50px;
+            vertical-align: bottom;
+            padding: 15px;
+        }
+
+        .t2 {
+            border: 1px solid black;
+            /* background-color: yellowgreen; */
+            background-image: url('../img/l4d2.jpg');
+            width: 350px;
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        /* 
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        } */
+
+        .cp1 {
+            caption-side: bottom;
+        }
+
+        .tb3 {
+            border: 1px solid black;
+            border-spacing: 0;
+            width: 600px;
+            height: 300px;
+        }
+
+        .td3 {
+            border-bottom: 1px solid lightblue;
+        }
+
+        .th3 {
+            border-right: 1px solid lightcoral;
+        }
+
+        .td4 {
+            border-bottom: 4px solid lightcyan;
+        }
+
+        .td3:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+    </head>
+
+    <table class="t1">
+        <caption class="cp1">
+            caption
+        </caption>
+        <tr>
+            <th class="td1">th1</th>
+            <th class="td1">th2</th>
+            <th class="td1">th3</th>
+            <th class="td1">th4</th>
+            <th class="td1">th5</th>
+            <th class="td1">th1</th>
+            <th class="td1">th2</th>
+            <th class="td1">th3</th>
+            <th class="td1">th4</th>
+            <th class="td1">th5</th>
+        </tr>
+        <tr>
+            <th class="td1">td1</td>
+            <td class="td1">td2</td>
+            <td class="td1">td3</td>
+            <td class="td1">td4</td>
+            <td class="td1">td5</td>
+            <th class="td1">td1</td>
+            <td class="td1">td2</td>
+            <td class="td1">td3</td>
+            <td class="td1">td4</td>
+            <td class="td1">td5</td>
+        </tr>
+        <tr>
+            <th class="td1">td1</td>
+            <td class="td1">td2</td>
+            <td class="td1">td3</td>
+            <td class="td1">td4</td>
+            <td class="td1">td5</td>
+            <th class="td1">td1</td>
+            <td class="td1">td2</td>
+            <td class="td1">td3</td>
+            <td class="td1">td4</td>
+            <td class="td1">td5</td>
+        </tr>
+        <tr>
+            <th class="td1">td1</td>
+            <td class="td1">td2</td>
+            <td class="td1">td3</td>
+            <td class="td1">td4</td>
+            <td class="td1">td5</td>
+            <th class="td1">td1</td>
+            <td class="td1">td2</td>
+            <td class="td1">td3</td>
+            <td class="td1">td4</td>
+            <td class="td1">td5</td>
+        </tr>
+        <tr>
+            <th class="td1">td1</td>
+            <td class="td1">td2</td>
+            <td class="td1">td3</td>
+            <td class="td1">td4</td>
+            <td class="td1">td5</td>
+            <th class="td1">td1</td>
+            <td class="td1">td2</td>
+            <td class="td1">td3</td>
+            <td class="td1">td4</td>
+            <td class="td1">td5</td>
+        </tr>
+    </table>
+    <br>
+    <table class="t2">
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+        <tr>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+            <td class="td2">td1</td>
+            <td class="td2">td2</td>
+            <td class="td2">td3</td>
+            <td class="td2">td4</td>
+            <td class="td2">td5</td>
+        </tr>
+    </table>
+    <br>
+    <table class="tb3">
+        <tr class="tr3">
+            <td class="td4">td1</td>
+            <td class="td4">td2</td>
+            <td class="td4">td3</td>
+            <td class="td4">td4</td>
+            <td class="td4">td5</td>
+            <td class="td4">td6</td>
+            <td class="td4">td7</td>
+            <td class="td4">td8</td>
+            <td class="td4">td9</td>
+        </tr>
+        <tr>
+            <td class="th3">td1</td>
+            <td class="td3">td2</td>
+            <td class="td3">td3</td>
+            <td class="td3">td4</td>
+            <td class="td3">td5</td>
+            <td class="td3">td6</td>
+            <td class="td3">td7</td>
+            <td class="td3">td8</td>
+            <td class="td3">td9</td>
+        </tr>
+        <tr>
+            <td class="th3">td1</td>
+            <td class="td3">td2</td>
+            <td class="td3">td3</td>
+            <td class="td3">td4</td>
+            <td class="td3">td5</td>
+            <td class="td3">td6</td>
+            <td class="td3">td7</td>
+            <td class="td3">td8</td>
+            <td class="td3">td9</td>
+        </tr>
+        <tr>
+            <td class="th3">td1</td>
+            <td class="td3">td2</td>
+            <td class="td3">td3</td>
+            <td class="td3">td4</td>
+            <td class="td3">td5</td>
+            <td class="td3">td6</td>
+            <td class="td3">td7</td>
+            <td class="td3">td8</td>
+            <td class="td3">td9</td>
+        </tr>
+        <tr>
+            <td class="th3">td1</td>
+            <td class="td3">td2</td>
+            <td class="td3">td3</td>
+            <td class="td3">td4</td>
+            <td class="td3">td5</td>
+            <td class="td3">td6</td>
+            <td class="td3">td7</td>
+            <td class="td3">td8</td>
+            <td class="td3">td9</td>
+        </tr>
+        <tr>
+            <td class="th3">td1</td>
+            <td class="td3">td2</td>
+            <td class="td3">td3</td>
+            <td class="td3">td4</td>
+            <td class="td3">td5</td>
+            <td class="td3">td6</td>
+            <td class="td3">td7</td>
+            <td class="td3">td8</td>
+            <td class="td3">td9</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

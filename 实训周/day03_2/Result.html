@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Result</title>
+</head>
+<link rel="stylesheet" href="result.css">
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+	   $(document).ready(function(){
+		var sr = localStorage.sr;
+		   $("#ip_receiver").val(sr);
+		   var data = {
+			   
+  "query": {
+    "query_string": {
+      "fields": ["title","body"],
+      "query": "sr"
+    }
+  },
+  "highlight": {
+     "pre_tags": "<span class='highlight'>",
+     "post_tags": "</span>",
+     "fields": {
+       "title": {},
+       "body": {}
+     }
+  }
+}
+		   //查询数据
+		   $.ajax({
+			   type:"POST",
+			   contentType:"application/json;charset=utf-8",
+			   url:"http://localhost:9200/myproj/doc/_search",
+			   dataType:'json',
+			   data:JSON.stringify(data),
+			   success:function(find_result){
+				   find_result.hits.hits.forEach(function(item){
+					   var mtitle = item.highlight.title?item.highlight.title:item.title;
+					   var mbody = item.highlight.body?item.highlight.body:item.body; 
+					   var murl = item._source.url;
+					   var text = `<div class="the_result">
+										<div class="from"><a href="#">${mtitle}</a>
+										<div class="result_content">${mbody}</div>
+										<a +href="#" class="result_link" >${murl}</a> </div></div>`;
+					   $('.result').append(text);
+				   })
+			   }
+		   })
+   })
+	</script>
+
+<body class="form_main">
+<div class="nav">
+  <input id="ip_receiver" placeholder="" name="name" class="input_text">
+  <button class="btn_result_search">Search</button>
+  <button class="btn_result_add" type="submit">Add Resource</button>
+</div>
+<div class="the_result">
+  <div class="from"><a href="#"></a>
+    <div class="result_content">
+      <div> <a href="#" class="result_link" ></a> </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

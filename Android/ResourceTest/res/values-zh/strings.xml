@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">用户名</string>
+    <string name="userhint">请输入您的用户名</string>
+    <string name="password">密     码</string>
+    <string name="btnok">登录</string>
+    <string name="btncancel">退出</string>
+</resources>

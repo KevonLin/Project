@@ -1,0 +1,17 @@
+package com.week10.day1.as1;
+
+public class TooHigh extends Exception{
+	
+	public TooHigh() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public TooHigh(String s) {
+		
+	}
+
+	public void getScore(int x) throws TooHigh{
+		
+	}
+}

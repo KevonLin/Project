@@ -1,0 +1,21 @@
+void Eg1(LinkList &L)
+{
+    if(!L)return;
+    temp=0;
+    for(i=1;i<L.length;i++)
+        if(p->data>temp)
+        temp=p->data;
+    if(p->next==NULL)return;
+    if(temp%2)
+    {
+        q=p->next->data;
+        p->data=p->next->data;
+        p->netx->data=q;
+    }
+    else
+    {
+        s=p->next;
+        p->next=p->next->next;
+        free(s);
+    }
+}

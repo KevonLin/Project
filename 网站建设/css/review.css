@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    width: auto;
+    height: 51px;
+    background-color: #323232;
+}
+
+.navitem{
+    list-style-type: none;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week1test1</title>
+    <style>
+        h1{
+            color: brown;
+            text-align: center;
+        }
+        
+        h2{
+            color:pink;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 style="color: red;">This is Head 1</h1> -->
+    <h1>This is Head 1</h1>
+    <script>
+        document.write("<h3>这是一个标题</h3>");
+        document.write("<p>这是一个段落。</p>");
+        function changeText()
+        {
+            x=document.getElementById("demo");
+            x.innerHTML="This is change Head 2"; 
+        }
+    </script>
+    <h2 id="demo">This is Head 2</h2>
+    <button type="button" onclick="changeText();">点我!</button>
+</body>
+</html>

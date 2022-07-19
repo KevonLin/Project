@@ -1,0 +1,85 @@
+<!-- 文字 加粗i倾斜 标题
+p空格不同方法 4种
+列表 有序 无序 定义 两个嵌套 起始值 vlaue start  
+超链接a图片 两个 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week4Test1</title>
+
+    <style>
+        #gotop {
+            width: 0;
+            height: 0;
+            border-left: 24px solid transparent;
+            border-right: 24px solid transparent;
+            border-bottom: 48px solid pink;
+            position: fixed;
+            right: 15px;
+            bottom: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div name="top">TOP</div>
+    <h1>文字</h1>
+    <center>
+        <font face="黑体" size="5" color="blue">居中</font>
+    </center>
+    <strong>加粗</strong>
+    <font color="red"><i>傾斜</i></font>
+    <u>下划线</u>
+    <br>
+    <h2>空格的不同用法</h2>
+    <p>&nbsp;nbsp</p>
+    <pre>  pre</pre>
+    <blockquote>blockquote</blockquote>
+    <p>&emsp;emsp</p>
+    <p>&ensp;ensp</p>
+    <h3>table</h3>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <h4>列表</h4>
+    <ul>
+        <li>L1</li>
+        <li>L2</li>
+        <ol type="A" start="2">
+            <li>LL1</li>
+            <li>LL2</li>
+            <li value="2">LL3</li>
+            <li>LL4</li>
+        </ol>
+        <li>L3</li>
+        <li>L4</li>
+    </ul>
+    <h5>超链接</h5>
+    <div>图片超链接</div>
+    <a href="http://81.71.93.145/main.html" target="_blank">
+        <img src="https://bkimg.cdn.bcebos.com/pic/9d82d158ccbf6c81412cfb9dbb3eb13533fa40a8?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"
+            alt="">
+    </a>
+    <br>
+    <div>文字超链接</div>
+    <a href="#top">返回顶部在右下角</a>
+    <a href="#top">
+        <div id="gotop"></div>
+    </a>
+</body>
+
+</html>

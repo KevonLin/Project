@@ -1,0 +1,17 @@
+package com.week10.day1.as1;
+
+public class Test {
+	
+	public void getScore(int x) throws TooHigh,TooLow{
+		if (x<0||x>100) {
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		TooHigh e = new TooHigh("Ì«´óÁË");
+//		e.printStackTrace();
+		String msg = e.getMessage();
+		System.out.println(msg);
+	}
+}

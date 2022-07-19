@@ -1,0 +1,205 @@
+#mainpage {
+    width: 1900px;
+    /* height: 1080px; */
+}
+
+#mvideo {
+    width: 1280px;
+    height: 720px;
+    /* background-color: pink; */
+    float: left;
+    margin-top: 90px;
+}
+
+#mvideo iframe{
+    width:1280px;
+    height: 720px;
+}
+
+#ovideo {
+    width: 480px;
+    height: 1520px;
+    /* background-color: powderblue; */
+    float: right;
+    margin-top: 90px;
+}
+
+#videwindows {
+    width: 1280px;
+    height: 720px;
+}
+
+#message {
+    width: 1280px;
+    height: 100px;
+    /* background-color: green; */
+    float: left;
+}
+
+#information {
+    width: 1280px;
+    height: 200px;
+    float: left;
+    border-top: 1px solid #999;
+    background-color: whitesmoke;
+}
+
+#comment {
+    width: 1280px;
+    /* height: 700px; */
+    /* background-color: greenyellow; */
+    float: left;
+    border-top: 1px solid #999;
+    padding-top: 10px;
+}
+
+.mleft {
+    margin-left: 100px;
+    position: relative;
+}
+
+#vhead {
+    /* width: 100px;
+    height: 200px; */
+    margin-top: 10px;
+    /* background-color: red; */
+    /* float: left; */
+}
+
+#vhead:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    /* border-radius: 50px; */
+    float: left;
+}
+
+#vhead:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+#vins {
+    width: 1230px;
+    height: 200px;
+    /* background-color: indigo; */
+    float: left;
+    /* position: relative; */
+}
+
+.ins {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#iname{
+    font-size: 16px;
+}
+
+#isub{
+    font-size: 14px;
+    color: #333;
+}
+
+#imsg{
+    margin-top: 25px;
+}
+
+#vtitle {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#vmsg {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #888;
+}
+
+#good {
+    position: absolute;
+    right: 24px;
+    bottom: 15px;
+}
+
+.oimg{
+    float: left;
+}
+
+.otitle{
+    font-size: 14px;
+}
+
+.oup{
+    font-size: 14px;
+    margin-top: 5px;
+    color: #999;
+}
+
+#ocontent{
+    width: 280px;
+    /* width: 100px; */
+    height: 100px;
+    margin-left: 20px;
+    float: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.oitem{
+    width: 480px;
+    height: 100px;
+    float: left;
+    margin: 0 0 20px 0;
+}
+
+.odate{
+    color: #999;
+    font-size: 14px;
+}
+
+.gimg {
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.comhead{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.comhead img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.comname{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+}
+
+.comdate{
+    font-size: 12px;
+    color: #777;
+    position: relative;
+    left: 5px;
+    /* float: left; */
+}
+
+.combox{
+    height: 100px;
+    position: relative;
+    left: 10px;
+}
+
+.comment{
+    margin-top: 12px;
+    float: le;
+}

@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.a1{
+	color: blueviolet;
+}
+div{
+	color: blue;
+}
+#div1{
+	color: brown;
+}*/
+
+/*当a1标签下任何一个子标签为c1的都能操作到*/
+/*.a1 .c1{
+	color: greenyellow;
+}*/
+
+/*.ai>.c1{
+	color: brown;
+}*/
+
+/*.a1,.b1{
+	color: violet;
+}*/
+
+#div1{
+	background-color: aquamarine;
+}
+
+body{
+	background-image: url("../Photo/B1 拷贝.jpg")
+}
+
+.c2{
+	color: chocolate;
+	line-height: 100px;
+	font-size: 100px;
+	text-align: center;
+}
+
+.a1{
+	width: 400px;
+	height: 400px;
+	margin-top: 10px;
+	border-top: 10px;
+	border-color: aqua;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-top: 20px;
+	padding-top: 15px;
+	background-color: #17889B;
+}
+
+.b1{
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #5BED20;
+}

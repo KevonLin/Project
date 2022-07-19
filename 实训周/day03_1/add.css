@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.add {
+    /*	默认显示背景图片*/
+    background-image: url("../../Photo/B1 拷贝.jpg");
+    /*	名字*/
+    animation-name: cartoon;
+    /*	播放时长*/
+    animation-duration: 10s;
+    /*	开始时间*/
+    animation-delay: 0s;
+    /*	播放方式：循环播放*/
+    animation-iteration-count: infinite;
+}
+ @keyframes cartoon {
+ 0% {
+background-image: url("../day02_2/1.png")
+}
+ 20% {
+background-image: url("../day02_2/2.png")
+}
+ 40% {
+background-image: url("../day02_2/3.png")
+}
+ 60% {
+background-image: url("../day02_2/4.png")
+}
+ 80% {
+background-image: url("../day02_2/5.png")
+}
+ 100% {
+background-image: url("../day02_2/1.png")
+}
+}
+.form {
+    background-color: white;
+    width: 300px;
+    height: 280px;
+    margin-top: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    opacity: 0.8;
+    box-shadow: 10px 10px 8px 0 rgba(7, 17, 27,0.1);
+}
+.input-item>lable {
+    display: block;
+}
+.btn_add {
+    width: 300px;
+    height: 32px;
+    margin-top: 10px;
+    background-color: cadetblue;
+}

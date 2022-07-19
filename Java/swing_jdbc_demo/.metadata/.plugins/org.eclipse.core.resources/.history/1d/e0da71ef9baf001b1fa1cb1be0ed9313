@@ -1,0 +1,20 @@
+package com.week10.day1.as1;
+
+public class TooLow extends Exception{
+	public TooLow() {
+		
+	}
+	
+	public TooLow(String s) {
+		super(s);
+	}
+	
+	TooHigh el = new TooHigh("л╚п║ак");
+	
+	public void getScore(int x) throws TooHigh,TooLow{
+		if (x<0) {
+			System.out.println(el.getMessage());
+		}
+	}
+	
+}

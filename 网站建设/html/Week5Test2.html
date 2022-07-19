@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week5Test2</title>
+    <style>
+        .tb1 {
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tb2 {
+            border: 1px solid black;
+        }
+
+        .tb3 {
+            width: 300px;
+            height: 600px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        .jk{
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="tb1">
+        <tr>
+            <td>
+                <table class="tbc1">
+                    <tr>
+                        <td rowspan="3">1班</td>
+
+                        <th>节次/日期</th>
+                        <th>周一</th>
+                        <th>周二</th>
+                        <th>周三</th>
+                        <th>周四</th>
+                        <th>周五</th>
+                    </tr>
+                    <tr>
+                        <td>td1</td>
+                        <td>td2</td>
+                        <td>td3</td>
+                        <td>td4</td>
+                        <td>td5</td>
+                        <td>td6</td>
+                    </tr>
+                    <tr>
+                        <td>td1</td>
+                        <td>td2</td>
+                        <td>td3</td>
+                        <td>td4</td>
+                        <td>td5</td>
+                        <td>td6</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="tbc2">
+                    <tr>
+                        <td rowspan="3">2班</td>
+                        <th>节次/日期</th>
+                        <th>周一</th>
+                        <th>周二</th>
+                        <th>周三</th>
+                        <th>周四</th>
+                        <th>周五</th>
+                    </tr>
+                    <tr>
+                        <td>td1</td>
+                        <td>td2</td>
+                        <td>td3</td>
+                        <td>td4</td>
+                        <td>td5</td>
+                        <td>td6</td>
+                    </tr>
+                    <tr>
+                        <td>td1</td>
+                        <td>td2</td>
+                        <td>td3</td>
+                        <td>td4</td>
+                        <td>td5</td>
+                        <td>td6</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table class="tb2">
+        <tr>
+            <td>网页标志</td>
+            <td colspan="2">广告条</td>
+        </tr>
+        <tr>
+            <td>td1</td>
+            <td rowspan="6">内容一</td>
+            <td rowspan="6">内容二</td>
+        </tr>
+        <tr>
+            <td>td1</td>
+            <!-- <td>td2</td> -->
+            <!-- <td>td3</td> -->
+        </tr>
+        <tr>
+            <td>td1</td>
+            <!-- <td>td2</td> -->
+            <!-- <td>td3</td> -->
+        </tr>
+        <tr>
+            <td>导航条</td>
+            <!-- <td>td2</td> -->
+            <!-- <td>td3</td> -->
+        </tr>
+        <tr>
+            <td>td1</td>
+            <!-- <td>td2</td> -->
+            <!-- <td>td3</td> -->
+        </tr>
+        <tr>
+            <td>td1</td>
+            <!-- <td>td2</td> -->
+            <!-- <td>td3</td> -->
+        </tr>
+        </tr>
+        <tr>
+            <td colspan="3">版权信息</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table class="tb3">
+        <tr>
+            <td>img</td>
+            <td>信息</td>
+        </tr>
+        <tr>
+            <td colspan="2">主要参数</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="jk">参数信息</td>
+        </tr>
+        <tr>
+            <td colspan="2">功能参数</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="jk">参数信息</td>
+        </tr>
+        <tr>
+            <td colspan="2">其他参数</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="jk">参数信息</td>
+        </tr>
+    </table>
+</body>
+
+</html>

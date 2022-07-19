@@ -1,0 +1,21 @@
+package com.week10.day1.as1;
+
+public class TooHigh extends Exception{
+	
+	public TooHigh() {
+
+	}
+
+	public TooHigh(String s) {
+		super(s);
+	}
+
+	TooHigh eh = new TooHigh("Ì«´óÁË");
+
+	public void getScore(int x) throws TooHigh,TooLow{
+		if (x>100) {
+			System.out.println(eh.getMessage());
+		}
+	}
+	
+}

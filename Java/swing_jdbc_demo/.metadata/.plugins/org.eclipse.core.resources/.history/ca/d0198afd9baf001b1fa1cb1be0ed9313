@@ -1,0 +1,23 @@
+package com.week10.day1.as1;
+
+import java.util.Scanner;
+
+public class Test {
+	
+	TooHigh el = new TooHigh("Ì«Ð¡ÁË");
+	
+	public void getScore(int x) throws TooHigh,TooLow{
+		if (x<0) {
+			System.out.println(el.getMessage());
+		}
+		if (x>100) {
+			System.out.println(eh.getMessage());
+		}
+	}
+	
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int score = s.nextInt();
+		
+	}
+}

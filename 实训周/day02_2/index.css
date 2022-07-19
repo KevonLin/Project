@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.index {
+	/*	默认显示背景图片*/
+	background-image: url("../../Photo/B1 拷贝.jpg");
+	/*	名字*/
+	animation-name: cartoon;
+	/*	播放时长*/
+	animation-duration: 10s;
+	/*	开始时间*/
+	animation-delay: 0s;
+	/*	播放方式：循环播放*/
+	animation-iteration-count: infinite;
+}
+
+@keyframes cartoon{
+	0% {background-image: url(1.png)}
+		
+	25% {background-image: url(2.png)}
+	
+	50% {background-image: url(3.png)}
+
+	75% {background-image: url(4.png)}
+
+	100% {background-image: url(5.png)}
+}
+
+.search{
+	width: 1920px;
+	height: 1008px;
+	padding-top: 480px;
+	padding-left: 800px;
+}
+
+.search_input{
+	width: 200px;
+	height: 28px;
+}
+
+.btn_search{
+	width: 64px;
+	height: 32px;
+	background-color: brown;
+	border: none;
+	cursor: pointer;
+	margin-left: 5px;
+}

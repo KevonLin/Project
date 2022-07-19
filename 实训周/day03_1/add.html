@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Add Srouce</title>
+	<script>
+	$(document).ready(function(){
+		var title = $("#title");
+		var body = $("#body");
+		var url = $("#url");
+		var data = {
+					  "title": "title",
+					  "body": "body",
+					  "url": "url"
+					};
+					
+		$.ajax({
+			   type:"POST",
+			   contentType:"application/json;charset=utf-8",
+			   url:"http://localhost:9200",
+			   dataType:'json',
+			   data:JSON.stringify(data),
+			   success:function(myfunction){
+				   console.log(myfunction){
+				     "title": "",
+					  "body": "",
+					  "url": "x"
+			   }
+			   }
+					})
+	}
+	</script>
+	</head>
+	<link rel="stylesheet" href="add.css">
+	<body class="add">
+    <div class="form" style="padding: 10px;">
+      <div class="input-item">
+        <label style="margin-left: 130px;">Title</label>
+        <div>
+          <input id="title" type="text" style="width: 300px; height: 30px;margin-top: 5px">
+        </div>
+      </div>
+      <div class="input-item">
+        <label style="margin-left:120px;">Content</label>
+        <div >
+          <textarea id="body" style="width: 300px; height: 60px;margin-top: 5px;"></textarea>
+        </div>
+      </div>
+      <div class="input-item">
+        <label style="margin-left: 135px;">Url</label>
+        <div>
+          <input id="url" type="text" style="width: 300px; height: 30px;margin-top: 5px;">
+        </div>
+      </div>
+      <input type="button" value="Add" class="btn_add">
+    </div>
+</body>
+	<script src="jquery-3.4.1.min.js">
+	
+	</script>
+</html>

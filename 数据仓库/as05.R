@@ -1,0 +1,92 @@
+basket.of.granny<-c(12,4,4,6,9,3)
+basket.of.geraldine<-c(5,3,2,2,12,9)
+granny.money<-basket.of.granny*120
+geraldine.money<-basket.of.geraldine*145
+for (i in 1:5)
+{
+  cat("Granny第",i,"场比赛获得捐赠:",granny.money[i],"美元\n")
+  cat("Grealdine第",i,"场比赛获得捐赠:",geraldine.money[i],"美元\n")
+}
+cat("Granny总捐赠额:",sum(granny.money),"\n")
+cat("Grealdine总捐赠额:",sum(geraldine.money),"\n")
+a<-3+4i
+b<-4+3i
+print(c<-a+b)
+print(d<-log(2,6))
+print(e<-log10(45))
+print(f<-log(exp(1),2:10))
+print(g<-exp(4))
+print(h<-sqrt(6))
+i<-round(123.456,1)
+j<-round(123.456,2)
+k<-round(123.456,-1)
+l<-round(123.456,-2)
+m<-round(123.5)
+n<-signif(123.456,4)
+o<-signif(123.456,5)
+p<-signif(123.5,3)
+q<-signif(122.5,3)
+floor(e)
+ceiling(f)
+trunc(g)
+print(r<-2/0)
+is.finite(r)
+is.infinite(r)
+is.nan(r)
+int1<-c(1,2,3)
+str1<-c('a','b','c')
+str(int1)
+str(str1)
+length(int1)
+length(str1)
+is.numeric(int1)
+is.integer(str1)
+seq1<-seq(1,20,3)
+print(seq1)
+seq2<-seq(20,1,-4)
+print(seq2)
+random1<-c(a,b)
+print(random1)
+g1<-c(0,0,7)
+r1<-rep(g1,times=3)
+print(r1)
+g2<-c(0,1,2)
+r2<-rep(g2,each=3)
+print(r2)
+c(1,2,2,3,3,3)->r3
+c(1,2,3,1,2,3,1,2)->r4
+print(r3)
+print(r4)
+x<-c(1:10)
+x1<-x[2]
+print(x1)
+x2<-c(x[2],x[4],x[5])
+print(x2)
+x3<-x
+x3<-x3[5:length(x3)]
+print(x3)
+x[4]<-11
+print(x)
+cat("Granny进球数大于5的场次：", which(basket.of.granny>5))
+cat("Geraldine进球数大于5的场次：", which(basket.of.geraldine>5))
+c(2,5,7,3,9,3,10)->x
+print(x)
+i<-1
+while(x[i]>3){
+  print(x[i])
+  i<-i+1
+}
+print(which.min(basket.of.granAny))  
+print(which.max(basket.of.granny))  
+print(which.max(basket.of.geraldine))
+print(which.max(basket.of.geraldine))
+any(basket.of.granny>basket.of.geraldine)
+all(basket.of.granny>basket.of.geraldine)
+minget<-which.min(basket.of.granny)
+maxget<-which.max(basket.of.granny)
+gnsum<-sum(basket.of.granny)
+afget<-cumsum(basket.of.granny)
+diff(basket.of.granny,basket.of.geraldine,differences = 1,lag=1)
+Granny.pointers<-c(10,2,4,0,4,1,4,2,7,2,1,2)
+Granny.powers<-c(2,3,2,3,2,3,2,3,2,3,2,3)
+Gscore<-sum(Granny.pointers*Granny.powers)

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+<meta charset="utf-8">
+<title>Search</title>
+</head>
+
+<body class="index">
+<div class="search">
+  <input class="search_input">
+  <button class="btn_search">Search</button>
+</div>
+</body>
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+	/*文档加载完成后执行该方法(入口函数)*/
+   $(document).ready(function(){
+	   $(".btn_search").click(function(){
+		   var s_input = $(".search_input").val();
+		   /*将val存入页面*/
+		   localStorage.sr = s_input;
+		   /*跳转*/
+		   window.location.href="../day03_2/Result.html";
+	   })
+   })
+	</script>
+</html>
